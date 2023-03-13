@@ -43,12 +43,6 @@ Return the head of the merged linked list.*/
 
         ListNode showNode = firstNode;
 
-        do{
-            System.out.println(showNode.val);
-            showNode = showNode.next;
-        } while (showNode != null);
-
-
         return firstNode;
     }
 
