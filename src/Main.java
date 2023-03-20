@@ -6,15 +6,7 @@ import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
-
-        ArrayList values = new ArrayList();
-        for (int i=1; i<6; i++) {
-            values.add(i);
-        }
-        ListNode listNode = ListNode.createListNode(values);
-        ListNode.showAllElements(listNode);
-
-        listNode = Problem206.reverseList(listNode);
-        ListNode.showAllElements(listNode);
+        int[] array = {9,3,4,4,4,8,1,4,5,10};
+        System.out.println(Problem121.maxProfit(array));
     }
 }
