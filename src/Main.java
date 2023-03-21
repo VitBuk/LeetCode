@@ -6,7 +6,24 @@ import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
-        int[] array = {9,3,4,4,4,8,1,4,5,10};
-        System.out.println(Problem121.maxProfit(array));
+       /* String s = "\"civilwartestingwhetherthatnaptionoranyna" +
+                "rtionsoconceivedandsodedicatedcanlongendureWeareq" +
+                "metonagreatbattlefiemldoftzhatwarWehavecometodedicpat" +
+                "eaportionofthatfieldasafinalrestingplaceforthosewhohereg" +
+                "avetheirlivesthatthatnationmightliveItisaltogetherfangandpr" +
+                "operthatweshoulddothisButinalargersensewecannotdedicatewecann" +
+                "otconsecratewecannothallowthisgroundThebravelmenlivinganddeadwhost" +
+                "ruggledherehaveconsecrateditfaraboveourpoorponwertoaddordetractTgheworl" +
+                "dadswfilllittlenotlenorlongrememberwhatwesayherebutitcanneverforgetwhatthe" +
+                "ydidhereItisforusthelivingrathertobededicatedheretotheulnfinishedworkwhichtheyw" +
+                "hofoughtherehavethusfarsonoblyadvancedItisratherforustobeherededicatedtothegreattda" +
+                "skremainingbeforeusthatfromthesehonoreddeadwetakeincreaseddevotiontothatcauseforwhich" +
+                "theygavethelastpfullmeasureofdevotionthatweherehighlyresolvethatthes" +
+                "edeadshallnothavediedinvainthatthisnationunsderGodshallhaveanewbirthoffreedomandthatg" +
+                "overnmentofthepeoplebythepeopleforthepeopleshallnotperishfromtheearth\"";
+
+        */
+        String s = "AAaaaabbbBBB";
+        System.out.println(Problem409.longestPalindrome(s));
     }
 }
